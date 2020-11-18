@@ -1,0 +1,49 @@
+button {
+    width: 100%;
+    height: 100%;
+}
+
+.upperDiv {
+    background-color: skyblue;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 10%;
+}
+
+.leftDiv {
+    background-color: skyblue;
+    position: absolute;
+    top: 10%;
+    width: 5%;
+    height: 80%;
+}
+
+.rightDiv {
+    background-color: skyblue;
+    position: absolute;
+    top: 10%;
+    left: 95%;
+    width: 5%;
+    height: 80%;
+}
+
+.bottomDiv {
+    background-color: skyblue;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 10%;
+    top: 90%;
+}
+
+.centerDiv {
+    position: absolute;
+    background-color: green;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
