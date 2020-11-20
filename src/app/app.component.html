@@ -3,15 +3,19 @@
     <button (click)="moveUp()"></button>
   </div>
   <div class="leftDiv">
-    <button></button>
+    <button (click)="moveLeft()"></button>
   </div>
   <div class="rightDiv">
+    <button (click)="moveRight()"></button>
+  </div>
+  <div class="bottomDiv" (click)="moveDown()">
     <button></button>
   </div>
-  <div class="bottomDiv">
-    <button></button>
+  <div id="container" class="centerDiv">
+    <div id="logo" class="logo" [ngStyle]="{'top': top, 'left': left}">
+      <img class="image" src="../assets/logo.png">
+    </div>
   </div>
-  <div id="logo" class="centerDiv"></div>
 </div>
 
 
